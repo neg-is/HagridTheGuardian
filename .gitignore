@@ -31,3 +31,8 @@ build/
 
 # Node (if you ever mix in JS stuff)
 node_modules/
+
+
+.venv/
+*.json
+text
