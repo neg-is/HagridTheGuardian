@@ -1,5 +1,0 @@
-https://id.twitch.tv/oauth2/authorize
-?client_id=5dm95j6ug2qd48c08l1oya1byre0l5
-&redirect_uri=https://twitchtokengenerator.com/redirect
-&response_type=code
-&scope=chat:read+chat:edit
