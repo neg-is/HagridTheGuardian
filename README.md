@@ -9,154 +9,61 @@ A TwitchIO-based bot project coded in Python, designed to help manage Twitch cha
 1️⃣ Clone the repository:
 ```bash
 git clone https://github.com/neg-is/HagridTheGuardian.git
+```
+
 2️⃣ Navigate into the project:
-
-bash
-Copy
-Edit
+```bash
 cd HagridTheGuardian
+```
+
 3️⃣ Set up a virtual environment:
-
-bash
-Copy
-Edit
+```bash
 python -m venv .venv
+```
+
 4️⃣ Activate the virtual environment:
-
-On Windows:
-
-bash
-Copy
-Edit
+- On Windows:
+```bash
 .venv\Scripts\activate
-On macOS/Linux:
-
-bash
-Copy
-Edit
+```
+- On macOS/Linux:
+```bash
 source .venv/bin/activate
+```
+
 5️⃣ Install dependencies:
-
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-🚀 Usage
-Run the bot:
-
-bash
-Copy
-Edit
-python chat_bot.py
-Make sure your .env or token files are set up correctly (never upload these to GitHub!).
-
-📂 Branches
-Branch	Purpose
-master	Stable, production-ready code
-dev	Development work, new features, testing
-
-👩‍💻 Contributors
-Neg → Developer & Maintainer
-
-📜 License
-This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
+```
 
 ---
 
-### 🛠 **Git Cheat Sheet**
+## 🚀 Usage
 
-✅ Initialize a local git repo  
+- Run the bot:
 ```bash
-git init
-✅ Check current status
+python chat_bot.py
+```
 
-bash
-Copy
-Edit
-git status
-✅ Add all files
+- Make sure your `.env` or token files are **set up correctly** (never upload these to GitHub!).
 
-bash
-Copy
-Edit
-git add .
-✅ Commit changes
+---
 
-bash
-Copy
-Edit
-git commit -m "Your message"
-✅ Add a remote (once)
+## 📂 Branches
 
-bash
-Copy
-Edit
-git remote add origin https://github.com/neg-is/HagridTheGuardian.git
-✅ Push local branch to GitHub
+| Branch  | Purpose                                   |
+|---------|------------------------------------------|
+| master  | Stable, production-ready code            |
+| dev     | Development work, new features, testing  |
 
-bash
-Copy
-Edit
-git push -u origin master  # first push
-git push                   # after first time
-✅ Create a new branch
+---
 
-bash
-Copy
-Edit
-git checkout -b dev
-✅ Switch between branches
+## 👩‍💻 Contributors
 
-bash
-Copy
-Edit
-git checkout master
-git checkout dev
-✅ Merge changes into master
+- **Neg** → Developer & Maintainer
 
-bash
-Copy
-Edit
-git checkout master
-git merge dev
-git push origin master
-✅ Pull the latest changes from GitHub
+---
 
-bash
-Copy
-Edit
-git pull
-✅ See commit history
+## 📜 License
 
-bash
-Copy
-Edit
-git log
-✅ Undo a staged file
-
-bash
-Copy
-Edit
-git reset HEAD <file>
-✅ Discard local changes
-
-bash
-Copy
-Edit
-git checkout -- <file>
-✅ See branches
-
-bash
-Copy
-Edit
-git branch
-✅ Delete a branch
-
-bash
-Copy
-Edit
-git branch -d branchname
+This project is licensed under the MIT License.
