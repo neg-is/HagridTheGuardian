@@ -1,4 +1,4 @@
-@@ -1,18 +1,22 @@
+
  # HagridTheGuardian
  
  A Twitch chat bot built with Python, designed to help manage, moderate, and interact with Twitch streams.
