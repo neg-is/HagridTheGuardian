@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TOKEN = os.getenv('TWITCH_TOKEN')  # should look like oauth:xxxxxxx
-CHANNEL = os.getenv('TWITCH_CHANNEL')  # should be like neglovegood
+CHANNEL = os.getenv('TWITCH_CHANNEL')
 
 # Simple bot class
 class Bot(commands.Bot):

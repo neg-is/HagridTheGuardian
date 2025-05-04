@@ -1,21 +1,33 @@
-# Ignore environment files
-.env
-
-# Ignore Python cache
+# Byte-compiled / cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Ignore virtual environments
+# Virtual environment
 .venv/
 env/
 venv/
 
-# Ignore IDE/editor files
-.idea/
+# Editor & IDE settings
 .vscode/
+.idea/
+*.sublime-workspace
 
-# Ignore logs and local files
+# Logs
 *.log
-*.sqlite3
-tasks.json
-messages.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+*.env
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Node (if you ever mix in JS stuff)
+node_modules/
