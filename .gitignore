@@ -29,10 +29,15 @@ Thumbs.db
 dist/
 build/
 
-# Node (if you ever mix in JS stuff)
+# Node (if using JS)
 node_modules/
 
-
-.venv/
+# Ignore all JSON files and text file
 *.json
 text
+
+# Sensitive scripts
+token_generator.py
+
+requirements.txt
+.text
