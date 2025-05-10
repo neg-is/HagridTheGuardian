@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { background: transparent; margin: 0; font-family: sans-serif; color: white; }
+#chat { display: flex; flex-direction: column; gap: 5px; font-size: 20px; }
+</style>
+<script>
+async function updateChat() {
+    try {
+        const res = await fetch('messages.json?_=' + Date.now());
+        const data = await res.json();
+        const chat = document.getElementById('chat');
+        chat.innerHTML = '';
+        data.queue.slice(-5).forEach(msg => {
+            const div = document.createElement('div');
+            div.innerHTML = msg;
+            chat.appendChild(div);
+        });
+    } catch (err) {
+        console.error('Fetch error:', err);
+    }
+}
+setInterval(updateChat, 1000);
+window.onload = updateChat;
+</script>
+</head>
+<body>
+<div id="chat"></div>
+</body>
+</html>
